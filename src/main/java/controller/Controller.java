@@ -146,7 +146,7 @@ public class Controller {
             Object[] objects = this.funcionarios.toArray();
             System.out.println("Quantidade de salário minimo de cada Funcionario: ");
             for (int i = 0; i < collect.size(); i++) {
-                System.out.println("O funcionário : " + objects[i].toString() + " Recebe: " + collect.get(i) + "Salarios mínimos de R$ 1.212,00 \n");
+                System.out.println("O funcionário : " + objects[i].toString() + "Recebe: " + collect.get(i) + " Salarios mínimos de R$ 1.212,00 \n");
             }
         } catch (Exception ignored) {
         }
